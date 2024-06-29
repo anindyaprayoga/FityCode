@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 import c from "@/assets/c.png";
 import python from "@/assets/python.png";
 import java from "@/assets/java.png";
-import htmlcss from "@/assets/htmlcss.png";
+import htmlcss from "@/assets/HTMLCSS.png";
 
 const home = () => {
   return (
