@@ -2,10 +2,10 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import React from "react";
-import c from "@/public/assets/c.png";
-import python from "@/public/assets/python.png";
-import java from "@/public/assets/java.png";
-import htmlcss from "@/public/assets/htmlcss.png";
+import c from "../../public/assets/c.png";
+import python from "../../public/assets/python.png";
+import java from "../../public/assets/java.png";
+import htmlcss from "../../public/assets/htmlcss.png";
 
 const page = () => {
   return (
