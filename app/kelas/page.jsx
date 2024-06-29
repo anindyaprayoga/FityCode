@@ -5,7 +5,7 @@ import React from "react";
 import c from "../../public/assets/c.png";
 import python from "../../public/assets/python.png";
 import java from "../../public/assets/java.png";
-import htmlcss from "../../public/assets/htmlcss.png";
+import htmlcss from "../../public/assets/HTMLCSS.png";
 
 const page = () => {
   return (
