@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import logo from "@/assets/FITYCODE.png";
-import avatar from "@/assets/avatar.png";
+import logo from "@/public/assets/FITYCODE.png";
+import avatar from "@/public/assets/avatar.png";
 
 const Navbar = () => {
   return (

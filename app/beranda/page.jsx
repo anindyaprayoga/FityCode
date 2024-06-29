@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
-import bannerImage1 from "@/assets/bannerImage1.png";
+import bannerImage1 from "@/public/assets/bannerImage1.png";
 import Image from "next/image";
 import Footer from "@/components/Footer";
-import c from "@/assets/c.png";
-import python from "@/assets/python.png";
-import java from "@/assets/java.png";
-import htmlcss from "@/assets/HTMLCSS.png";
+import c from "@/public/assets/c.png";
+import python from "@/public/assets/python.png";
+import java from "@/public/assets/java.png";
+import htmlcss from "@/public/assets/HTMLCSS.png";
 
 const home = () => {
   return (
