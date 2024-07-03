@@ -1,5 +1,5 @@
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
+import Footer from "../../components/Footer";
+import Navbar from "../../components/Navbar";
 import Image from "next/image";
 import React from "react";
 import c from "../../public/assets/c.png";
