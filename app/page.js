@@ -15,7 +15,7 @@ export default function Home() {
           <h1 className="text-stone-950 text-7xl text-center px-16 backdrop-blur-3xl rounded-3xl shadow-2xl">
             Kursus pemrograman online yang sesuai dengan anda
           </h1>
-          <a className="flex justify-center p-10" href="/beranda">
+          <a className="flex justify-center p-10" href="/login">
             <button className="bg-blue-500 text-blue-50 p-5 rounded-3xl text-2xl shadow-xl">
               Mulai Belajar
             </button>
@@ -54,7 +54,7 @@ export default function Home() {
               instalasi
             </p>
             <a
-              href="#"
+              href="/login"
               className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Coba Sekarang
@@ -97,7 +97,7 @@ export default function Home() {
               Belajar melalui text yang menarik atau video yang mengasyikkan
             </p>
             <a
-              href="#"
+              href="/login"
               className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Belajar Sekarang
@@ -141,7 +141,7 @@ export default function Home() {
               your weekly benefits:
             </p>
             <a
-              href="#"
+              href="/login"
               className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Belajar Sekarang

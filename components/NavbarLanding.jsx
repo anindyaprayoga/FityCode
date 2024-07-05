@@ -15,7 +15,7 @@ const NavbarLanding = () => {
         />
         <h1 className="text-xl">FityCode</h1>
       </div>
-      <a className="flex justify-center" href="/beranda">
+      <a className="flex justify-center" href="/login">
         <button className="bg-blue-500 text-blue-50 p-4 rounded-3xl text-base">
           Mulai Belajar
         </button>

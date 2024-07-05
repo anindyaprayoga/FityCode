@@ -62,26 +62,29 @@ export default function RegisterForm() {
 
   return (
     <div className="grid place-items-center h-screen">
-      <div className="shadow-lg p-5 rounded-lg border-t-4 border-green-400">
-        <h1 className="text-xl font-bold my-4">Register</h1>
+      <div className="shadow-lg p-5 rounded-lg border-t-4 border-blue-500 bg-sky-50 w-96">
+        <h1 className="text-4xl font-bold my-4 text-stone-950">Register</h1>
 
         <form onSubmit={handleSubmit} className="flex flex-col gap-3">
           <input
             onChange={(e) => setName(e.target.value)}
             type="text"
             placeholder="Full Name"
+            className="bg-sky-200 border-solid rounded-2xl placeholder-stone-600 p-2"
           />
           <input
             onChange={(e) => setEmail(e.target.value)}
             type="text"
             placeholder="Email"
+            className="bg-sky-200 border-solid rounded-2xl placeholder-stone-600 p-2"
           />
           <input
             onChange={(e) => setPassword(e.target.value)}
             type="password"
             placeholder="Password"
+            className="bg-sky-200 border-solid rounded-2xl placeholder-stone-600 p-2"
           />
-          <button className="bg-green-600 text-white font-bold cursor-pointer px-6 py-2">
+          <button className="bg-blue-500 text-white font-bold cursor-pointer px-6 py-2">
             Register
           </button>
 

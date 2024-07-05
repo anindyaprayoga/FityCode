@@ -17,13 +17,22 @@ const Navbar = () => {
         <h1 className="text-xl">FityCode</h1>
       </div>
       <div className="flex justify-between">
-        <a href="#" className="px-8 hover:text-blue-600 text-lg font-semibold">
+        <a
+          href="/beranda"
+          className="px-8 hover:text-blue-600 text-lg font-semibold"
+        >
           Beranda
         </a>
-        <a href="#" className="px-8 hover:text-blue-600 text-lg font-semibold">
+        <a
+          href="/kelas"
+          className="px-8 hover:text-blue-600 text-lg font-semibold"
+        >
           Kelas
         </a>
-        <a href="#" className="px-8 hover:text-blue-600 text-lg font-semibold">
+        <a
+          href="/codeeditor"
+          className="px-8 hover:text-blue-600 text-lg font-semibold"
+        >
           Online Compiler
         </a>
         <a href="#" className="px-8 hover:text-blue-600 text-lg font-semibold">
