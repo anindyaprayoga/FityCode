@@ -37,7 +37,7 @@ const authOptions = {
   session: {
     strategy: "jwt",
   },
-  secret: process.env.NEXTAUTH_SECRET,
+  secret: process.env.MONGODB_URI,
   pages: {
     signIn: "/",
   },
