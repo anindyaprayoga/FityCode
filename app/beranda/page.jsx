@@ -195,6 +195,15 @@ const home = () => {
             </div>
           </div>
         </div>
+        <div className="border-solid border-4 border-blue-500 p-5">
+          <h1 className="text-stone-950 text-4xl">Harga</h1>
+          <h1 className="text-stone-800 text-2xl">
+            <span className="text-stone-950 text-3xl">Rp. 100.000</span> / bulan
+          </h1>
+          <button className="bg-blue-600 p-2 text-xl rounded-full text-sky-50 mt-5">
+            Beli Sekarang
+          </button>
+        </div>
       </div>
       <Footer />
     </div>
