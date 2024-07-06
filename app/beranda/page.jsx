@@ -17,7 +17,7 @@ const home = () => {
           <Image height={565} src={bannerImage1} alt="bannerImage1" />
           <div className="absolute inset-0 flex items-center">
             <div>
-              <h1 className="text-blue-50 text-6xl px-10">Halo User</h1>
+              <h1 className="text-blue-50 text-6xl px-10">Halo</h1>
               <h2 className="text-blue-50 text-4xl px-10 pt-8">
                 Selamat datang dan selamat belajar
               </h2>
