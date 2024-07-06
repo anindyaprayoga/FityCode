@@ -7,6 +7,8 @@ export const LANGUAGE_VERSIONS = {
   php: "8.2.3",
   c: "10.2.0",
   cpp: "10.2.0",
+  dart: "0.36.1",
+  go: "1.16.2",
 };
 
 export const CODE_SNIPPETS = {
